@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.HelloWorld{
+  margin: 30px 500px 30px 500px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+.ex1Description{
+text-align: center;
+}
+
+.ex1Body{
+  width: auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Exercise2{
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  margin: 1em 10em 1em 10em;
+}
+.ex2Description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.ex2Body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30em;
+}
+
+.ex2Button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+
+.Exercise3{
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  margin: 1em 10em 1em 10em;
+}
+.ex3Description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.ex3Body{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+  height: 30em;
+}
+
+.ex3Button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+
+
+.Exercise4{
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  margin: 1em 10em 1em 10em;
+}
+.ex4Description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.ex4Body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30em;
+}
+
+.ex4Button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.Exercise5{
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  margin: 1em 10em 1em 10em;
+}
+.ex5Description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.ex5Body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30em;
+}
+
+
+
+.Exercise6{
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  margin: 1em 10em 1em 10em;
+}
+.ex6Description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.ex6Body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30em;
+}
+
+.ItemExercise6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 10rem;
+  height: 3rem;
+}
+
+
+.Exercise7{
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  margin: 1em 10em 1em 10em;
+}
+.ex7Description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.ex7Body form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30em;
+}
+
+.ex7Body form input{
+  border-radius: 0.4em;
+  font-size: 1.4rem;
+  margin: 0.4rem;
+}
+
+.ex7Body form label{
+  border-radius: 0.4em;
+  font-size: 1.4rem;
+  margin: 0.4rem;
+}
+.ex7Body form button{
+  border-radius: 0.4em;
+  font-size: 1.3rem;
+  margin: 1rem 0.4rem 0.4rem 0.4rem;
+  background-color: red;
+  padding: 0.6rem 5rem 0.6rem 5rem;
+  box-shadow: 0px 30px 55px rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.ex7Body form button:hover{
+background-color: #2EE59D;
+box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+color: #fff;
+transform: translateY(-7px);
+}
+
+
+.Exercise8{
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  margin: 1em 10em 1em 10em;
+}
+.ex8Description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.ex8Body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 30em;
+}
+
+.ItemExercise8{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 40rem;
+  height: 14rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: aliceblue;
+}
+
+.ItemExercise8 h3{
+  font-size: 2rem;
+}
+
+.ItemExercise8 p{
+  font-size: 1.3rem;
+}
+
+ul.navbaritems{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #aaa5a5;
+  padding: 1rem;
+  box-shadow: 0 24px 30px rgba(0, 0, 0, 0.2);
+}
+
+ul.navbaritems li{
+  margin-right: 1rem;
+  list-style-type: none;
+}
+
+ul.navbaritems li.currently-active a{
+  color: #124e06;
+}
+ul.navbaritems li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #333;
+  text-decoration:  none;
+  font: 1em sans-serif;
+  font-weight: 600;
+  transition: all 0.3 ease;
+}
+
+nav a:hover{
+  color: #0077c0;
+}
+
+.about p {
+  font-size: 15px;
+  font-style: italic;
+  padding:  10px;
+  border:  1px solid cornsilk;
+}
+
+
+.projects {
+display: flex;
+justify-content: center;
+}
+
+.project {
+  max-width: 200px;
+  border: 1px solid black;
+  flex: 1;
+  margin-right: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
